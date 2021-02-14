@@ -5,10 +5,10 @@ import sys
 
 if __name__ == '__main__':
     try:
-        if sys.argv[1] in ('cpu', 'gpu', 'mobo_intel', 'mobo_amd', 'memory', 'psu', 'hdd', 'ssd', 'cpu_fan', 'case_fan', 'case'):
+        if sys.argv[1] in get_ne_components.ne_urls.a_comp:
             get_ne_components.get_ne_components(sys.argv[1], int(sys.argv[2]))
 
-        elif sys.argv[1] not in ('cpu', 'gpu', 'mobo_intel', 'mobo_amd', 'memory', 'psu', 'hdd', 'ssd', 'cpu_fan', 'case_fan', 'case'):
+        elif sys.argv[1] not in get_ne_components.ne_urls.a_comp:
             print('error: component type not found')
 
         elif sys.argv[2] is not int:
