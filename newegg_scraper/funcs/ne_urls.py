@@ -14,3 +14,4 @@ urls = { 'cpu': 'https://www.newegg.com/Processors-Desktops/SubCategory/ID-343/P
          'case': 'https://www.newegg.com/Computer-Cases/SubCategory/ID-7/Page-1?Tid=7583&Order=3&PageSize=60'
          }
 
+a_comp = ('cpu', 'gpu', 'mobo_intel', 'mobo_amd', 'memory', 'psu', 'hdd', 'ssd', 'cpu_fan', 'case_fan', 'case')
